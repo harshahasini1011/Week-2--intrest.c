@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(){
+printf("25331a05c7\n");
+float p,r,t,si,ci,amount;
+printf("enter principal:");
+scanf("%f",&p);
+printf("enter rate:");
+scanf("%f",&r);
+printf("enter time:");
+scanf("%d",&t);
+si=(p*r*t)/100;
+amount=p*(1+r/100)*(1+r/100)*(1+r/100);
+ci=amount-p;
+printf("\nsimpleintrest = %.2f",si);
+printf("\n component intrest = %.2f",ci);
+return 0;
+}
